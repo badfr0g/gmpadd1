@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
             mpz_add_ui(a,a,1);
             count=count+1;
         }
-        gmp_printf( "Adding %ld 1s to 0 gives this result: %zd\n", count, a);
+        gmp_printf( "Adding %ld 1s to 0 gives this result: %Zd\n", count, a);
     }
 
 	return 0;
